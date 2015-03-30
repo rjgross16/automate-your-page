@@ -1,0 +1,350 @@
+<!DOCTYPE HTML>
+<head>
+    <link rel="stylesheet" type="text/css" href="RobsSite.css">
+    <meta charset="utf-8">
+    <title>What Rob Has Learned</title>
+  </head>
+<body>
+	<h1><img src="http://dana-robert.com/wp-content/uploads/2015/03/RGCode1.png" alt="What Rob Learned So Far"></h1>
+  <hr style="background-color: #404040; height: 3px; margin-left: 40px; margin-right: 40px;">
+	<div class="lesson">
+  <div class="concept">
+    <div class="concept-space">
+    </div>
+    <div class="concept-question">
+			  <p>
+          Why am I seeing this?
+        </p>
+    </div>
+    <div class="concept-answer">
+          <p>
+            You are on a browser (hopefully, or else then I have no answer for you). You told your browser to go to this page, and so your computer, since it's dumb and has no mind of its own (yet), went ahead and texted its friend Web and said "Hey buddy, can you send me the files that my owner requested?"
+            <br>
+            <br>
+            Web said, "no problem, just give me a few nanoseconds," then retreived the files from a server via something called <a href="http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol">HTTP</a> and sent them to your computer. Then your browser, since it's also dumb and has no mind of its own, interpeted the files that came through and displayed them on your screen.
+          </p>
+    	</div>
+    </div>
+    	<div class="concept">
+      <div class="concept-question">  
+		      <p>
+            Ok, but how did you make it?
+          </p>
+      </div>
+      <div class="concept-answer">
+          <p>
+            I used a language called HTML, which stands for Hypertext Markup Language. HTML is made up of:
+          </p>
+              <ul>
+                <li>Text content - which is what you are seeing now</li>
+                <li>Markup - which is what this page looks like</li>
+                <li>References to other documents - like the logo at the top of the screen/li>
+                <li>Links to other pages - like this link to a <a href="https://www.youtube.com/watch?v=riQTu_939MY">puppy video</a></li>
+              </ul>
+	     </div>
+    </div>  
+	    <div class="concept">
+      <div class="concept-question">
+			      <p>
+              How did you make it look like this?
+            </p>
+        </div>
+        <div class="concept-answer">
+          <p>
+            Everything you see on the screen is part of an <strong>HTML element</strong>. You add these elements to your page using things called tags, and you can apply attributes, or <strong>styles</strong>, to those elements. So, for example, I added a link to the puppy video using a link tag (which looks like this: &lt;a&gt;), and I wrote in my code that all link elements should be my favorite shade of red and have bold font. 
+          </p>
+	      </div>
+  </div>
+  	<div class="concept">
+      <div class="concept-question">
+        <p>
+          Sounds pretty easy
+        </p>
+      </div>  
+		      <div class="concept-answer">
+            <p>
+              Well, it would be really easy if computers weren't so dumb. I know what you're thinking, <em>Computers aren't dumb, didn't a computer beat Ken Jennings in Jeopardy?</em> That is true, but that computer was super dumb before programmers wrote a LOT of code to make it smart. And programmers must be careful when writing code. One small mistake, and the computer's <strong>stupidity</strong> would cause it to misinterpret the language and break everything.
+            </p>
+      </div>
+      </div>
+    	<div class="concept">
+        <div class="concept-question">
+          <p>
+            Oh, so how do your write HTML?
+          </p>
+        </div>
+          <div class="concept-answer">
+            <p>
+              To start, you can learn one easy thing, which is that every HTML document has the same basic structure:
+            </p>
+                <ul>
+                  <li>HTML &lt;html&gt; - which tells the computer that you are writing a document using HTML</li>
+                  <li>Head &lt;head&gt; - where you usually put the styling of your page</li>
+                  <li>Body &lt;body&gt; - where pretty much everything else goes</li>
+                </ul>
+      	</div>
+	    </div>
+    <div class="concept">
+      <div class="concept-question">
+        <p>
+          So now you're saying it <em>is</em> easy?
+        </p>
+      </div>
+      <div class="concept-answer">
+         <p>
+          Well, to start is easy. But then what? You need to know some more essentials. For instance, there are other languages besides HTML. One language that's used for pretty much every web site is CSS. HTML controls the "structure" of a webpage, while CSS controls the "style" of the page.
+          <br>
+          <br>
+          You can put your styling directly in to your HTML, but CSS is essential to code writers because it helps them avoid a lot of repetition. I already gave an example of this above. To avoid having to tell my HTML every time that I wanted my links red, I instead only had to type it once in my CSS.
+        </p>
+	     </div>
+    </div>
+	    <div class="concept">
+      <div class="concept-question">
+        <p>
+          Tell me more about HTML and CSS
+        </p>
+      </div>
+        <div class="concept-answer">
+           <p>
+              As I said, the &lt;head&gt; section is usually where you put styling, so if you have a CSS file you can simply put a link to it in the &lt;head&gt; section of your HTML and voila, your HTML will now listen to what your CSS tells it to do.<br>
+              <br>
+              Programmers use a "tree-like structure" when coding their sites. We call it that because HTML elements can have other elements inside of them, kind of like a family tree. And just like a family, the "child" elements can "inherit" attributes from a "parent", which, again, helps programmers avoid repetition.
+            </p>
+        </div>
+      	</div>
+    	<div class="concept">
+      <div class="concept-question">
+        <p>
+          But what about these boxes?
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            You're catching on already! You can see that there are boxes on this page. But even when you can't see boxes on the screen, know that the page was still built using boxes. Every page has boxes! Every box on your screen is built of four elements:
+          </p>
+              <ul>
+                <li>Content - in the middle, contains the text and images you see on the screen. The other layers are like protection to the content.</li>
+                <li>Padding - this clears an area around the content. Like how there is a little space between the red text and the gray side of your screen.</li>
+                <li>Border - this goes around the content and padding. These boxes have a gray border on the bottom.</li>
+                <li>Margin - the outermost layer, it provides spaces between the boxes on the page.</li>
+              </ul>
+        </div>
+      </div>
+    	<div class="concept">
+      <div class="concept-question">
+        <p>
+          How do you get the boxes where you want them to go?
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            Box sizing and positioning is one of the hardest parts of building a web page. You can set the size of your box with pixels, or in percentages. I used percentages on this page.
+          </p>
+        </div>
+      </div>
+      <div class="concept">
+      <div class="concept-question">
+        <p>
+          Can you show me?
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            You can see my code without me even showing you. Right click anywhere on this page, and if you're using Chrome as your browser, click "Inspect Element". ALl the coding that I wrote will be down there, and you can make adjustments to see what it would look like on the screen. This is a great tool for developers to play around with their coding in the browser before actually coding it.
+          </p>
+        </div>
+      </div>
+      <div class="concept">
+      <div class="concept-question">
+        <p>
+          Sweet! Now I want to get <em>serious</em>
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            To begin "serious" programming, you must first understand some Computer Science. The essense of Computer Science is taking a big problem, and then breaking it down into smaller pieces, each of which can be described in a series of precise steps. Those steps then get executed by a computer.
+            <br>
+            <br>
+            Unlike a toaster, which does basically one thing, a computer can do anything, if you write a program for it. 
+          </p>
+        </div>
+      </div>
+      <div class="concept">
+      <div class="concept-question">
+        <p>
+          So how can you write a program for a computer?
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            It would be easy to just type in the language you know already to tell a computer what to do. The problem with that is languages can be ambiguous, and computers need very precise instructions to execute programs correctly. This is why we have invented programming languages, like Python, which have precise rules that computers can respond to.
+            <br>
+            <br>
+            Python is an interpreter. In other words, instead of writing your program directly on your computer, Python takes the code you've written, and translates it into a language that the computer can read. 
+          </p>
+        </div>
+      </div>
+      <div class="concept">
+      <div class="concept-question">
+        <p>
+          Python? Sounds scary
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            It's not so bad. A Python program can be as simple as easy arithmetic. It can be broken down into the syntax: Expression -> Expression Operator Expression, kind of like how a sentence can be broken down into Subject Verb Object. So, an example of a very simple Python program would be 'print 2 + 2'. 
+          </p>
+        </div>
+      </div>
+      <div class="concept">
+      <div class="concept-question">
+        <p>
+          This seems like a lot to remember
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            While it's nice to know the language syntax of Python and other languages, what is most important to remember is that programming requires three important concepts:
+          </p> 
+            <ol>
+                <li><b>Procedural thinking</b></li>
+                <li><b>Technological empathy</b> for how computers work</li>
+                <li><b>Abstract thinking</b>, like thinking of a Python program, a Python interpreter, and a web browser as different versions of the same thing (a computer program)</li>
+            </ol>  
+        </div>
+      </div>
+      <div class="concept">
+      <div class="concept-question">
+        <p>
+          Python sounds tedious
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            It could be, but what can help you avoid repition is using variables. A variable is a name for something. So if you are going to use the number '19082098' a bunch of times in your code you could set a variable: 
+          </p>
+          <p style="color: #E9040B; text-align: center;"> number = 19082098</p>
+          <p>This way, instead of typing the whole number every time you could type the word 'number' in your code. This also makes your code a lot more readable to both yourself, and to others who may see your code and/or need to make changes to it.</p>
+        </div>
+      </div>
+      <div class="concept">
+      <div class="concept-question">
+        <p>
+          Equal sign? Like algebra?
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            It's actually different than algebra; the equal sign does not make an equation. Instead, "=" essentially means assign a value to a name. So "number = 19082098" really means "assign the value 19082098 to the name 'number'"
+          </p>
+        </div>
+      </div>
+      <div class="concept">
+      <div class="concept-question">
+        <p>
+          What else is in Python?
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            Another important concept is <b>String</b>, which is a sequence of characters inside quote signs. So when I say...
+          </p>
+          <p style="color: #E9040B; text-align: center;">
+            print "Hello"
+          </p>
+          <p>
+            ... the Python interperet will return: Hello
+          </p>
+          <p>
+            And other important concepts are <b>String Indexing</b>, which allows you to return a value based on a position in the string, and the <b>Find</b> method, which allows you to find the position of a value within the string.
+          </p>
+        </div>
+      </div>
+      <div class="concept">
+      <div class="concept-question">
+        <p>
+          K, I'm ready to code now
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            Hold on there buddy, we need to talk about <b>Functions</b>. Essentially, a function is a way to tell your code to go through a certain procedure repeatedly. So, I could say, everytime I type "sumthesenumbers" you should take the two numbers and sum them. This helps me avoid repition since I then won't have to type the procedure every time.
+          </p>
+          <p>
+            A function takes inputs, puts them through a procedure, and then gives you outputs. If my function says to sum two numbers, then when I <em>input</em> the two numbers 3 and 4, it wil give me an <em>output</em> of 7.
+          </p>
+        </div>
+      </div>
+      <div class="concept">
+      <div class="concept-question">
+        <p>
+          That is pretty cool. Tell me more.
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            One essential thing to remember is to always include a "return" statement in your function. If you don't, the computer will not actually return a result. It will just say "None" and the user of your website will be like what, why???
+          </p>
+        </div>
+      </div>
+      <div class="concept">
+      <div class="concept-question">
+        <p>
+          What are some other functions?
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            One really important function is <b><em>if</em></b>. That allows you to test whether a condition is true, and return a certain output if it is, and another output if it isn't. One of the most common uses of "if" is to do comparison.
+          </p>
+          <p>The amazing thing about "if" is that with procedures, comparison, ifs, and simple arithmetic, <b>you can write every possible computer program.</b></p>
+        </div>
+      </div>
+      <div class="concept">
+      <div class="concept-question">
+        <p>
+          Great, so I guess we're done!
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            Again, no. While you can technically write any program, there are a lot more concepts to learn that will make programming easier. Two important concepts that get rid of a lot of repition are <b>For</b> and <b>While Loops</b>. They both allow you to check a condition or apply a procedure to elements in a set, instead of have to write it over and over again.
+          </p>
+        </div>
+      </div>
+      <div class="concept">
+      <div class="concept-question">
+        <p>
+          Fine, I'm not ready. What else should I know?
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            Another important concept: <b>lists</b>. Lists are different than strings in that strings have to be a sequence of characters, while lists can contain anything. An example of a list: p = ['R', 'o', 'b', 's', 'S', 'i', 't', 'e']. Lists are great because they are what we call a <em>mutable object</em>, meaning we can give them mutations, which sounds scary but really just means we can change the values within the list.
+          </p>
+        </div>
+      </div>
+      <div class="concept">
+      <div class="concept-question">
+        <p>
+          Mutations??? What else can you do?
+        </p>
+      </div>
+        <div class="concept-answer">
+          <p>
+            Here are a few important <b>list operations</b> which we can use to change or act upon lists:
+            <ul>
+                <li>append (adds new elements to the end of a list)</li>
+                <li>+ (combines two lists together)</li>
+                <li>len (short for length; finds the number of element in a list)</li>
+                <li>index (finds the first position of a value in a list)</li>
+                <li>in (sees whether a value is in a list and gives an output of 'True' or 'False')</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+      </div>
+</div>
+</body>
