@@ -1,0 +1,87 @@
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -ms-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+  h1 {
+  color: #616161;
+  margin: 40px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  color: #E9040B;
+  margin: 10px;
+  padding-bottom: 10px;
+}
+
+body {
+  background-color: #E2E2E2;
+  font-family: Open Sans, sans-serif;
+}
+
+li {
+  padding-left: 30px;
+}
+
+.lesson {
+  background-color: #E2E2E2;
+  margin: 40px;
+}
+
+.concept {
+  background-color: #E2E2E2;
+  color: black;
+  display: flex;
+  margin-bottom: 3px;
+}
+
+.concept-question {
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 20%;
+  font-size: 20px;
+  color: #E9040B;
+  background-color: white;
+  padding: 15px;
+}
+
+.concept-answer {
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  float: left;
+  width: 80%;
+  font-size: 16px;
+  line-height: 26px;
+  color: #404040;
+  background-color: white;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+a:link {
+    color: #E9040B;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #E9040B;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E9040B;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #404040;
+    text-decoration: underline;
+}
